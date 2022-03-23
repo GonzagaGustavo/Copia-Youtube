@@ -1,0 +1,81 @@
+.flex {
+  display: flex;
+  margin-left: 2%;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  height: 10vh;
+  width: 100%;
+}
+#logo {
+  height: 50%;
+  width: 10%;
+  /* padding: 18px 14px 18px 16px; */
+}
+#search {
+  height: 100%;
+  width: 100%;
+  padding: 2px 6px;
+  background-color: #000000;
+  border: none;
+  color: white;
+}
+#search:focus {
+  box-shadow: 0 0 0 0;
+  outline: none;
+}
+.input {
+  height: 40%;
+  width: 346px;
+  display: flex;
+  padding: 3px 10px;
+  align-items: center;
+  background-color: #000000;
+  border: solid 1px #444;
+}
+
+#keyboard {
+  color: white;
+  height: 8%;
+  width: 8%;
+  cursor: pointer;
+}
+#btn-search {
+  background-color: #444;
+  border: none;
+  height: 100%;
+  width: 150%;
+  cursor: pointer;
+}
+#search-icon {
+  margin-top: 5%;
+  height: 90%;
+  width: 90%;
+}
+#menu {
+  margin: 1%;
+  color: white;
+  height: 50%;
+  width: 5%;
+}
+#mic-icon {
+  cursor: pointer;
+  background-color: #000000;
+  color: white;
+  padding: 1.3%;
+  border-radius: 100%;
+}
+#vid-icon {
+  cursor: pointer;
+  color: white;
+  height: 50%;
+  width: 4%;
+}
+#menugrid-icon {
+  cursor: pointer;
+  color: white;
+  height: 50%;
+  width: 4%;
+}
