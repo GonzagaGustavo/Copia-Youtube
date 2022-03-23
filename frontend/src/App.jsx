@@ -5,8 +5,10 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { MdKeyboard } from "react-icons/md";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsFillMicFill } from "react-icons/bs";
-import { BiVideoPlus } from 'react-icons/bi'
-import { CgMenuGridR } from 'react-icons/cg'
+import { BiVideoPlus } from "react-icons/bi";
+import { CgMenuGridR } from "react-icons/cg";
+import { IoMdNotificationsOutline } from "react-icons/io";
+import { AiOutlineUserAdd } from "react-icons/ai";
 
 function App() {
   return (
@@ -24,10 +26,13 @@ function App() {
               <AiOutlineSearch id="search-icon" />
             </button>
           </div>
+          <BsFillMicFill id="mic-icon" />
         </div>
-        <BsFillMicFill id="mic-icon" />
+
         <BiVideoPlus id="vid-icon" />
-        <CgMenuGridR id="menugrid-icon"/>
+        <CgMenuGridR id="menugrid-icon" />
+        <IoMdNotificationsOutline id="icon" />
+        <AiOutlineUserAdd id="icon" />
       </header>
     </div>
   );
