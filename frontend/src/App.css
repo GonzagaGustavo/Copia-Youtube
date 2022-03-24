@@ -1,6 +1,7 @@
+/* header css */
 .flex {
   display: flex;
-  margin-left: 2%;
+  margin-left: 4%;
   width: 100%;
 }
 header {
@@ -14,7 +15,7 @@ header {
 #logo {
   height: 30%;
   width: 12%;
-  padding: 2%;
+  padding: 1%;
 }
 #search {
   height: 100%;
@@ -59,7 +60,7 @@ header {
 #menu {
   margin: 1%;
   color: white;
-  height: 50%;
+  height: 40%;
   width: 5%;
   cursor: pointer;
 }
@@ -102,4 +103,55 @@ header {
   #mic-icon {
     margin-left: 4%;
   }
+}
+/* header's end */
+#abas {
+  height: 90vh;
+  width: 5%;
+  background-color: #333;
+}
+#a {
+  text-align: center;
+  color: white;
+  font-size: 65%;
+  padding: 25% 0% 25%;
+}
+p {
+  margin: 0;
+}
+#abas-icons {
+  height: 40%;
+  width: 40%;
+}
+#a:hover {
+  background-color: rgb(148, 146, 146);
+}
+#abas2 {
+  overflow-y: auto;
+  height: 90vh;
+  width: 17%;
+  background-color: #333;
+}
+#a-expand {
+  height: 8%;
+  display: flex;
+  color: white;
+  align-items: center;
+  padding: 0 7%;
+}
+#a-expand:hover {
+  background-color: rgb(148, 146, 146);
+}
+#abas-icons2 {
+  height: 55%;
+  width: 20%;
+  margin: 0 10% 0 0;
+}
+hr {
+  margin: 5%;
+}
+h4 {
+  margin-top: 0;
+  text-align: center;
+  color: #AAAAAA;
 }
