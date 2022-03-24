@@ -34,6 +34,7 @@ function App() {
         <IoMdNotificationsOutline id="icon" />
         <AiOutlineUserAdd id="icon" />
       </header>
+      <h1>Este site foi publicado com continuous deployment</h1>
     </div>
   )
 }
