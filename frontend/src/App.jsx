@@ -35,7 +35,7 @@ function App() {
         <AiOutlineUserAdd id="icon" />
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
