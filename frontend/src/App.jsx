@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "./App.css";
 import Aba from "./Components/Aba";
+import Videos from "./Components/Videos";
 //Icons
 import { AiOutlineMenu } from "react-icons/ai";
 import { MdKeyboard } from "react-icons/md";
@@ -11,6 +12,7 @@ import { CgMenuGridR } from "react-icons/cg";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { AiOutlineUserAdd } from "react-icons/ai";
 import { Context } from "./Contexts/Context";
+
 
 function App() {
   const {mudarAbas} = useContext(Context);
@@ -37,8 +39,9 @@ function App() {
           <IoMdNotificationsOutline id="icon" />
           <AiOutlineUserAdd id="icon" />
         </header>
-        <main>
+        <main style={{display: "flex"}}>
           <Aba />
+          <Videos />
         </main>
       </div>
   );

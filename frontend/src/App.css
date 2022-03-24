@@ -106,6 +106,7 @@ header {
 }
 /* header's end */
 #abas {
+  position: sticky;
   height: 90vh;
   width: 5%;
   background-color: #333;
@@ -127,6 +128,7 @@ p {
   background-color: rgb(148, 146, 146);
 }
 #abas2 {
+  position: sticky;
   overflow-y: auto;
   height: 90vh;
   width: 17%;
