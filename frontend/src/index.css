@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -17,4 +17,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.margin-left {
+  margin-left: 17vw;
+}
+.margin-left2 {
+  margin-left: 5vw;
 }

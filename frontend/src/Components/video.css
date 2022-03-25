@@ -8,7 +8,6 @@
     width: 100%;
 }
 #video {
-    height: 50%;
     width: 25%;
     margin: 1%;
 }
@@ -57,6 +56,24 @@
     color: white;
     opacity: 0;
 }
-#video:hover #icon-details {
+.margin1 {
+    margin-left: 5vw;
+    width: 100vw;
+}
+.margin2 {
+    margin-left: 17vw;
+}
+#vid-hover {
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    margin: 2%;
+    padding: 2%;
+    z-index: 1;
+    font-size: 14px;
+    opacity: 0;
+}
+#video:hover #vid-hover,#video:hover #icon-details {
     opacity: 1;
 }

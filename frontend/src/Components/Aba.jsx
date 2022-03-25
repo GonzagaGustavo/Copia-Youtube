@@ -20,7 +20,7 @@ const {abas} = useContext(Context)
     <>
       {abas ? (
         <div id="abas2">
-          <div id="a-expand">
+          <div id="a-expand" onClick={() => window.location.href="https://youtubee2.netlify.app"}>
             <MdHomeFilled id="abas-icons2" />
             <p>Início</p>
           </div>
@@ -69,7 +69,7 @@ const {abas} = useContext(Context)
         </div>
       ) : (
         <div id="abas">
-          <div id="a">
+          <div id="a" onClick={() => window.location.href="https://youtubee2.netlify.app"}>
             <MdHomeFilled id="abas-icons" />
             <p>Início</p>
           </div>

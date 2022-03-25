@@ -11,11 +11,17 @@ header {
   height: 10vh;
   width: 100%;
   align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+#main {
+  display: flex;
+  margin-top: 10vh;
 }
 #logo {
-  height: 30%;
-  width: 12%;
-  padding: 1%;
+  height: 100%;
+  width: 100%;
 }
 #search {
   height: 100%;
@@ -106,9 +112,9 @@ header {
 }
 /* header's end */
 #abas {
-  position: sticky;
+  position: fixed;
   height: 90vh;
-  width: 5%;
+  width: 5vw;
   background-color: #333;
 }
 #a {
@@ -128,10 +134,10 @@ p {
   background-color: rgb(148, 146, 146);
 }
 #abas2 {
-  position: sticky;
+  position: fixed;
   overflow-y: auto;
   height: 90vh;
-  width: 17%;
+  width: 17vw;
   background-color: #333;
 }
 #a-expand {
@@ -156,4 +162,10 @@ h4 {
   margin-top: 0;
   text-align: center;
   color: #AAAAAA;
+}
+a {
+  text-decoration: none;
+  height: 30%;
+  width: 12%;
+  padding: 1%;
 }

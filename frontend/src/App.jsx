@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./App.css";
 import Aba from "./Components/Aba";
 import Videos from "./Components/Videos";
+import { Context } from "./Contexts/Context";
 //Icons
 import { AiOutlineMenu } from "react-icons/ai";
 import { MdKeyboard } from "react-icons/md";
@@ -11,17 +12,16 @@ import { BiVideoPlus } from "react-icons/bi";
 import { CgMenuGridR } from "react-icons/cg";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { AiOutlineUserAdd } from "react-icons/ai";
-import { Context } from "./Contexts/Context";
-
 
 function App() {
   const {mudarAbas} = useContext(Context);
-
   return (
       <div>
         <header>
           <AiOutlineMenu id="menu" onClick={mudarAbas} />
+          <a href="https://youtubee2.netlify.app">
           <img src="youtube-logo-1-3.png" alt="" id="logo" />
+          </a>
           <div className="flex">
             <div className="input">
               <input type="text" id="search" placeholder="Pesquisar" />
@@ -39,7 +39,7 @@ function App() {
           <IoMdNotificationsOutline id="icon" />
           <AiOutlineUserAdd id="icon" />
         </header>
-        <main style={{display: "flex"}}>
+        <main id="main">
           <Aba />
           <Videos />
         </main>
